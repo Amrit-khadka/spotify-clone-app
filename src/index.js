@@ -6,8 +6,10 @@ import * as serviceWorker from './serviceWorker';
 import { DataLayer } from './DataLayer';
 import reducer, { initialState } from './reducer.js';
 
+
 ReactDOM.render(
   <React.StrictMode>
+    
     <DataLayer initialState = { initialState } reducer = { reducer }>
       <App /> {/** children or consumer */}
     </DataLayer>

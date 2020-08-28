@@ -9,3 +9,4 @@ export const DataLayer = ( { initialState, reducer, children}) => (
 );
 
 export const useDataLayerValue = () => useContext(DataLayerContext);
+

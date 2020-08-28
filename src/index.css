@@ -1,4 +1,14 @@
-html {
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+* {
+  margin: 0;
+}
+
+
+
+/* html {
   overflow: scroll;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -8,7 +18,7 @@ html {
     
   width: 0px; 
   display:none;
-  }
+  } */
 
 body {
   margin: 0;
